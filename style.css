@@ -1,0 +1,168 @@
+/*
+Theme Name: Portal CSTI
+Theme URI: http://www.tre-pi.jus.br
+Description: Central de Servicos de TI - TRE-PI
+Author: SEDESC
+Version: 1.0
+License: GNU General Public License
+Tags: white, blue
+*/
+
+html, body, div, span, applet, object, iframe, table, caption,
+tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:focus { outline: 0; }
+
+body { line-height: 1; color: black; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: separate; border-spacing: 0; }
+
+caption, th, td { font-weight: normal; text-align: left; }
+
+strong, h2, h3, h4, h5, h6 { font-weight: bold; }
+em { font-style: italic; }
+
+/* Style */
+
+body { background: #f7f7f7; font: 12px Arial, Verdana, Helvetica, sans-serif; text-align: center; }
+
+#topo { background: url(images/bg_top.jpg) top center no-repeat; height: 120px; padding: 30px 0 0 25px; }
+#topo .logo { width: 310px; height: 60px; float: left; }
+
+#topo .busca { background: url(images/bg_busca.jpg) no-repeat; width: 394px; height: 41px; float: left; margin: 8px 0 0 30px; }
+#topo .busca input { border: none; background: none; }
+#topo .busca .input-search { width: 290px; padding: 10px 10px 10px 30px;  color: #888; margin: 2px 0; }
+#topo .busca .searchsubmit { width: 60px; padding: 10px 10px 10px 30px; cursor: pointer; }
+
+#topo ul.nav { float: left; margin: 0 0 0 15px; }
+#topo ul.nav li { display: inline; text-align: center;}
+#topo ul.nav li a { text-decoration: none; color: #777; font-size: 10px; float: left; width: 90px; height: 54px; margin: 0 5px; padding-top: 35px;}
+#topo ul.nav li.home a { background: url(images/home.jpg) top center no-repeat; }
+#topo ul.nav li.contato a { background: url(images/falecom.jpg) top center no-repeat; }
+
+#geral { margin: 0 auto; width: 1000px; text-align: left; }
+
+#conteudo { width: 710px; float: left; }
+#conteudo .destaques { width: 100%; height: 255px; overflow: hidden; position: relative; }
+#conteudo .destaques .description { position: absolute; z-index: 100; bottom: 0; background: #000; width: 690px; opacity:0.70; -moz-opacity: 0.70; filter: alpha(opacity=70); padding: 10px;  }
+#conteudo .destaques .description h2, #conteudo .destaques .description a h2 { color: #fff; font: 2em/1.15em Georgia, serif; opacity: 1; -moz-opacity: 1; filter: alpha(opacity=100); text-decoration: none; }
+#conteudo .destaques .description p, #conteudo .destaques .description a p { color: #b7b7b7; font-size: 1.1em; opacity: 1; -moz-opacity: 1; filter: alpha(opacity=100); text-decoration: none; }
+#conteudo .destaques img { width: 710px; height: 255px; z-index: 1;  }
+
+#conteudo .pages { width: 670px; background: #175783; margin: 20px 0 10px; color: #fff; padding: 20px; overflow: hidden; }
+#conteudo .pages ul li { width: 198px; float: left; margin: 0 30px 0 5px; }
+#conteudo .pages ul li.last{ margin-right: 0; }
+
+#conteudo .pages h3 { color: #fff; font: 2em/1.15em Georgia, serif; }
+#conteudo .pages h3 strong { display: block; font-weight: bold; font-style: italic; }
+#conteudo .pages p { color: #e9e9e9; font-size: 13px;  margin: 10px 0 15px;  }
+
+#conteudo .pages a.mais, #conteudo .pages a.mais:visited { color: #ffa200; text-decoration: none; font-style: italic; }
+#conteudo .pages a.mais:hover { border-bottom: 1px solid; }
+
+#conteudo .links { width: 710px; }
+#conteudo .links h3 { font: italic bold 2em/2em Georgia, serif; }
+#conteudo .links ul.listalinks { padding: 20px 0 20px 20px; background: url(images/bg_links.jpg) top center no-repeat; overflow: hidden; }
+#conteudo .links ul.listalinks li { text-align: center; width: 95px; float: left; margin-right: 20px; }
+#conteudo .links ul.listalinks li.last { margin-right: 0; }
+#conteudo .links ul.listalinks li a, #conteudo .links ul.listalinks li a:visited { color: #175783; text-decoration: none; font-size: 1.1em; font-weight: bold; }
+
+#conteudo .post { padding-left: 10px; }
+#conteudo .post a, #conteudo .post a:visited  { color: #0173B1 !important; text-decoration: none; }
+#conteudo .post a:hover { text-decoration: underline; }
+
+#conteudo .post-data { font-size: 11px; color: #666; font-weight: bold; }
+#conteudo h1 { font: italic bold 2.3em/1.3em Georgia, serif; margin: 5px 0 10px 0; color: #175783; font-weight: bold;}
+#conteudo h2 { font: italic bold 1.6em/1.2em Georgia, serif; margin: 2px 0 5px; color: #175783; font-weight: bold; }
+#conteudo .texto { font-size: 1.2em; line-height: 1.6em; }
+#conteudo .texto p { margin: 10px 0;}
+#conteudo .serif { font: italic bold 1em/1em Georgia, serif; }
+#conteudo .lead  p{ color: #999; font-weight: bold; font-size: 1.25em; display: block; margin-bottom: 10px; }
+
+#conteudo .texto ul { margin: 0 40px; }
+#conteudo .texto ul li { list-style: disc;  margin: 5px 0; }
+
+#conteudo .texto ol { margin: 0 40px; }
+#conteudo .texto ol li { list-style: decimal; margin: 5px 0;}
+
+#conteudo .search li { padding: 5px 5px 10px 0; border-bottom: 1px dashed #999; }
+#conteudo .search a h2, #conteudo .search a:visited h2 { font: italic bold 1.6em/1.2em Georgia, serif; margin: 2px 0 5px; color: #175783; font-weight: bold;}
+#conteudo .search a, #conteudo .search a .post-data, #conteudo .search a:visited .post-data { text-decoration: none; color: #666; }
+
+#conteudo .categorias { font-weight: bold; font-size: 1.3em; margin: 15px 0; }
+#conteudo .categorias li { list-style: disc; margin: 0 25px; }
+
+img.aligncenter { display: block; margin: 0 auto; text-align: center; }
+
+#sidebar { width: 275px; float: right; }
+#sidebar .contato { width: 275px; height: 224px; background: url(images/bg_falecom.jpg) center no-repeat; }
+#sidebar .contato ul { padding: 68px 0 0 52px; }
+#sidebar .contato li, #sidebar .contato li a, #sidebar .contato li a:visited { color: #fff; font-weight: bold; padding: 6px 0; text-decoration: none; }
+#sidebar .contato li a:hover { text-decoration: underline;  }
+
+#sidebar .contato .chamado { display: block; width: 240px; height: 35px; margin: 10px auto 0 25px; text-align: center;}
+
+#sidebar .tutonoticias { background: url(images/bg_tutonoticias.jpg) top center repeat-y; }
+#sidebar .tutonoticias h3.tutoriais { background: url(images/top_tutoriais_2.jpg) top center no-repeat; height: 38px; padding: 13px 0 0 10px; margin-top: 10px; }
+#sidebar .tutonoticias h3.noticias { background: url(images/top_noticias.jpg) top center no-repeat; height: 38px; padding: 30px 0 0 10px; }
+#sidebar .tutonoticias h3 a,  #sidebar .tutonoticias h3 a:visited { font-weight: bold; font-size: 1em; text-decoration: none; color: #000; }
+#sidebar .tutonoticias .bottom { display: block; width: 100%; height: 8px; padding: 0; margin: 0; background: url(images/bottom_tutonoticias.jpg) bottom center no-repeat; }
+
+#sidebar .tutonoticias ul { margin: 0 5px 0 15px; }
+#sidebar .tutonoticias ul li { background: url(images/bg_li_tutonoticias.jpg) bottom right no-repeat; padding: 5px 0 15px; }
+#sidebar .tutonoticias ul a, #sidebar .tutonoticias ul a:visited { color: #666; text-decoration: none; margin: 3px 0; font-size: 1.1em; line-height: 1.4em; }
+#sidebar .tutonoticias ul.tutoriais a:hover { text-decoration: underline; }
+#sidebar .tutonoticias ul strong { display: block; font-size: 11px; font-weight: bold; }
+#sidebar .tutonoticias ul.tutoriais strong { color: #175783; }
+#sidebar .tutonoticias ul.noticias strong { color: #8caf48; }
+
+#rodape { width: 100%; height: 152px; background: url(images/bg_footer.jpg) repeat-x; overflow: hidden; }
+#rodape .conteudo { padding-top: 40px; width: 990px; margin: 0 auto; color: #fff; }
+#rodape ul li { display: inline; margin: 0 8px; }
+#rodape ul li a, #rodape ul li a:visited { font-weight: bold; font-size: 14px; color: #fff; text-decoration: none; }
+#rodape ul li a:hover { color: #a3d6f5 }
+#rodape .logo { margin: 0 auto; overflow: hidden; width: 720px; margin-top: 10px;}
+#rodape .logo a {width: 201px; height: 40px; float: left; margin-right: 10px;}
+#rodape p {float: right; text-align: left; }
+
+/* wordpress */
+.wp-caption {
+    background-color: #F3F3F3;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    margin: 10px;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 12px; line-height: 11px; font-style: italic;
+}
+
+.aligncenter, dl.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft, dl.alignleft { float: left; }
+.alignright, dl.alignright { float: right; }
+
+#gallery-1 { margin: 20px auto; }
+#gallery-1 .gallery-item { float: left; margin-top: 10px; text-align: center; width: 25%; }
+.gallery-item  img { border: 1px solid #DDDDDD; }
+.gallery-caption { font: italic bold 1.2em/1.3em Georgia, serif; color: #175783;  }
+
+.cpd { font-weight: bold; padding: 10px; overflow: hidden; }
