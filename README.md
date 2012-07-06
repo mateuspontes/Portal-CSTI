@@ -1,4 +1,6 @@
 Portal-CSTI
 ===========
 
-Portal Central de Serviços - Intranet TRE-PI
+Tema criado para Portal Central de Serviços - Intranet TRE-PI
+
+> PHP | Wordpress
